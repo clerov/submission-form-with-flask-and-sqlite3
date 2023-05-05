@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')}}">
+	<title>Join With Us</title>
+</head>
+<body>
+   <form method="post" action="{{ url_for('submit') }}">
+   	<h1>Join With US</h1>
+   	  <input type="text" name="name" placeholder="Full Name" required/>
+   	  <input type="text" name="age" placeholder="Age" required/>
+   	  <input type="email" name="email" placeholder="Email Address" required/>
+   	  <input type="text" name="contact" placeholder="Contact Number" required/>
+   	  <button type="submit">Submit</button>
+   </form>
+</body>
+</html>

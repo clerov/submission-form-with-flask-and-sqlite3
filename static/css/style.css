@@ -1,0 +1,40 @@
+body {
+	background: #171717;
+	color: #fff;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+input {
+	width: 280px;
+	height: 25px;
+	margin: 10px auto;
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	border: 2px solid magenta;
+	color: #fff;
+	border-radius: 20px;
+}
+
+h1 {
+	width: 100%;
+	padding: 20px;
+	color: magenta;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+button {
+	margin: 30px auto;
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: 2px solid magenta;
+	color: #fff;
+}
